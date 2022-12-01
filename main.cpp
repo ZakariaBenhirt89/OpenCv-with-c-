@@ -41,7 +41,7 @@ void MyEllipse( Mat img, double angle )
     int lineType = 8;
     ellipse( img,
              Point( w/2, w/2 ),
-             Size( w/4, w/16 )
+             Size( w/4, w/16 ),
              angle,
              0,
              360,
